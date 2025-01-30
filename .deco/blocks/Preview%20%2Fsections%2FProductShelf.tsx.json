@@ -1,0 +1,67 @@
+{
+  "__resolveType": "site/sections/ProductShelf.tsx",
+  "products": [
+    {
+      "@type": "Product",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "video": null,
+          "image": null
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating"
+      },
+      "brand": {
+        "@type": "Brand",
+        "video": null,
+        "image": null
+      },
+      "isVariantOf": {
+        "@type": "ProductGroup",
+        "hasVariant": [],
+        "additionalProperty": [],
+        "video": null,
+        "image": null,
+        "productGroupID": "123"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "offers": [],
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnFees": "https://schema.org/FreeReturn",
+          "returnMethod": "https://schema.org/KeepProduct",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "video": null,
+          "image": null,
+          "returnShippingFeesAmount": {
+            "video": null,
+            "image": null,
+            "currency": "REAL",
+            "maxValue": 10,
+            "minValue": 1,
+            "validFrom": "all",
+            "validThrough": "all",
+            "value": true
+          },
+          "applicableCountry": "BBR"
+        },
+        "highPrice": 129.99,
+        "lowPrice": 19.99,
+        "offerCount": 1
+      },
+      "review": [],
+      "questions": [],
+      "video": null,
+      "image": null,
+      "isAccessoryOrSparePartFor": null,
+      "isSimilarTo": null,
+      "isRelatedTo": null,
+      "productID": "123",
+      "sku": "123"
+    }
+  ],
+  "showArrows": true
+}
