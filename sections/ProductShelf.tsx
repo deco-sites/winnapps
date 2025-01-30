@@ -34,6 +34,37 @@ const defaultProps: Props = {
       "lowPrice": 99.99,
       "highPrice": 99.99,
     }
+  },
+    {
+      "@type": "Product",
+      "productID": "3507009",
+      "name": "Sample Product",
+      "description": "Product description",
+      "image": [{
+        "@type": "ImageObject",
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQImWNgYGAAAAAEAAGjChXjAAAAAElFTkSuQmCC",
+      }],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": 99.99,
+        "highPrice": 99.99,
+      }
+    }, {
+      "@type": "Product",
+      "productID": "3507010",
+      "name": "Sample Product",
+      "description": "Product description",
+      "image": [{
+        "@type": "ImageObject",
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQImWNgYGAAAAAEAAGjChXjAAAAAElFTkSuQmCC",
+      }],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": 99.99,
+        "highPrice": 99.99,
+      }
   }],
   showArrows: true,
   buyButtonText: "Buy Now"
